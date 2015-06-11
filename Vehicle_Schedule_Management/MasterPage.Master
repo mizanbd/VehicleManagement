@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Vehicle_Schedule_Management.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+                <li><a href="VehicleInfoUI.aspx" class="current">Vechicle Info</a></li>
+                <li><a href="VehicalSecheduleUI.aspx">Vehicle Sechedule</a></li>
+                <li><a href="SechuduleInfoUI.aspx">Schedule Info</a></li>
+                
+            </ul>  
+            
+
+        </div>
+        
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        
+
+        <div>
+            
+            
+
+        </div>
+    </form>
+</body>
+</html>
